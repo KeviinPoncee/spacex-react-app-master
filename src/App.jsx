@@ -13,7 +13,7 @@ export function App() {
       <BrowserRouter>
         <Image m={4} src={logo} alt="logo space-x" width={300} />
         <Routes>
-          <Route path='/' element={<LaunchList />} />
+          <Route path='spacex-react-app-master/' element={<LaunchList />} />
           <Route path='launch/:launchId' element={<LaunchDetail />} />
         </Routes>
       </BrowserRouter>
